@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!--
+  Material Design Lite  Copyright 2015 Google Inc. All rights reserved.  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.  You may obtain a copy of the License at      https://www.apache.org/licenses/LICENSE-2.0
+  Unless required by applicable law or agreed to in writing, software  distributed under the License is distributed on an "AS IS" BASIS,  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and  limitations under the License-->
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A portfolio template that uses Material Design Lite.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-pink.min.css">
+    <link type="text/css" rel="stylesheet" href="stylesheets/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header mdl-layout__header--waterfall portfolio-header">
+        <div class="mdl-layout__header-row portfolio-logo-row"> <span class="mdl-layout__title">
+            <div class="portfolio-logo"></div>
+            <span class="mdl-layout__title"></span> </span> </div>
+        <div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
+          <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+            <a class="mdl-navigation__link" href="index.html">Home</a> <a class="mdl-navigation__link  is-active"
+              href="gallery.html">Gallery</a> <a class="mdl-navigation__link" href="about.html">About</a>
+            <a class="mdl-navigation__link" href="contact.html">Contact</a> </nav>
+        </div>
+      </header>
+      <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+        <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+          <a class="mdl-navigation__link is-active" href="index.html">Home</a> <a
+            class="mdl-navigation__link" href="gallery.html">Gallery</a> <a class="mdl-navigation__link"
+            href="about.html">About</a> <a class="mdl-navigation__link" href="contact.html">Contact</a>
+        </nav>
+      </div>
+      <main class="mdl-layout__content">
+        <div class="mdl-grid portfolio-max-width">
+          <div class="mdl-grid mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp"><img
+              class="article-image" src="https://github.com/AkshayaAc/Akshay/blob/master/gallery/IMG-20190319-WA0009.jpeg?raw=true"
+              alt="">
+            <div class="mdl-cell mdl-cell--8-col">
+              <h2 class="mdl-card__title-text">Teacher training</h2>
+              <div class="mdl-card__supporting-text padding-top"> <span></span>
+                <!--   <div id="tt1" class=" icon material-icons portfolio-share-btn">share</div> -->
+                <div class="mdl-tooltip" for="tt1"> Share via social media </div>
+              </div>
+              <div class="mdl-card__supporting-text no-left-padding"><br>
+              </div>
+            </div>
+          </div>
+          <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp">
+            <div class="mdl-card__title">
+              <h2 class="mdl-card__title-text"></h2>
+            </div>
+            <div class="mdl-card__media"> <a href="#"> <img class="article-image"
+                  src="https://github.com/AkshayaAc/Akshay/blob/master/gallery/IMG-20190518-WA0055.jpg?raw=true"
+                  alt="" border="0"></a> </div>
+            &nbsp;
+            <div class="mdl-card__supporting-text"> </div>
+          </div>
+          <main class="mdl-layout__content">
+            <div class="mdl-grid portfolio-max-width">
+              <div class="mdl-grid mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp"><img
+                  class="article-image" src="https://github.com/AkshayaAc/Akshay/blob/master/gallery/IMG-20190401-WA0002.jpg?raw=true"
+                  alt="">
+                <div class="mdl-cell mdl-cell--8-col">
+                  <h2 class="mdl-card__title-text"><br>
+                  </h2>
+                  <div class="mdl-card__supporting-text padding-top"> <span></span>
+                    <div id="tt1" class=" icon material-icons portfolio-share-btn">se</div>
+                    <div class="mdl-tooltip" for="tt1"> Share via social media </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp">
+                <div class="mdl-card__title">
+                  <h2 class="mdl-card__title-text"><br>
+                  </h2>
+                </div>
+                <div class="mdl-card__media"> <a href="#"> <img class="article-image"
+                      src="https://github.com/AkshayaAc/Akshay/blob/master/gallery/IMG-20190224-WA0022.jpeg?raw=true"
+                      alt="" border="0"></a> </div>
+                <br>
+                <div class="mdl-card__supporting-text no-bottom-padding">
+                  <div class="mdl-tooltip" for="tt2"> Share via social media </div>
+                </div>
+              </div>
+            </div>
+            <footer class="mdl-mini-footer">
+              <div class="mdl-mini-footer__left-section">
+                <div class="mdl-logo"><br>
+                </div>
+              </div>
+              <div class="mdl-mini-footer__right-section">
+                <ul class="mdl-mini-footer__link-list">
+                  <p> <a href="tel:+916305591018">Call us: at 630-559-1018</a>
+                    <a href="tel:+919392974753">, 939-297-4753</a> <a href="tel:+918121947608">,
+                      812-194-7608</a> </p>
+                </ul>
+              </div>
+            </footer>
+          </main>
+        </div>
+        <script src="https://code.getmdl.io/1.3.0/material.min.js"></script> </main>
+    </div>
+  </body>
+</html>
